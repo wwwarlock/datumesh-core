@@ -1,2 +1,2 @@
 # datumesh-core
-Core functionalities and specific blockchain
+Core functionalities and specific blockchain.
