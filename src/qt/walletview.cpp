@@ -296,6 +296,7 @@ void WalletView::showProgress(const QString &title, int nProgress)
         progressDialog->setCancelButton(0);
         progressDialog->setAutoClose(false);
         progressDialog->setValue(0);
+        progressDialog->setMoudle(Qt::ApplicationModal);
     }
     else if (nProgress == 100)
     {
